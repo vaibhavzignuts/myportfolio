@@ -5,7 +5,6 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import ContactImg from "../public/assets/contact.jpg";
 import axios from "axios";
 import { useRouter } from "next/router";
 import toast from "react-hot-toast";
@@ -98,7 +97,7 @@ const Contact = () => {
               <div>
                 <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src={ContactImg}
+                  src={"/assets/contact.jpg"}
                   alt="/"
                 />
               </div>
