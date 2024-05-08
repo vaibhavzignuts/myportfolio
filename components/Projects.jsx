@@ -1,10 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import propertyImg from "../public/assets/projects/Screenshot 2024-05-06 at 6.32.30 PM.png";
-import cryptoImg from "../public/assets/projects/Screenshot 2024-05-07 at 5.17.01 PM.png";
-import netflixImg from "../public/assets/projects/Screenshot_1715082714.png";
-import twitchImg from "../public/assets/projects/Screenshot_1715083521.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -18,25 +14,29 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="MENDELSON UI"
-            backgroundImg={propertyImg}
+            backgroundImg={
+              "/assets/projects/Screenshot 2024-05-06 at 6.32.30 PM.png"
+            }
             projectUrl="https://github.com/vaibhavzignuts/Mendleson-communication-ui"
             tech="React JS"
           />
           <ProjectItem
             title="Book store"
-            backgroundImg={cryptoImg}
+            backgroundImg={
+              "/assets/projects/Screenshot 2024-05-07 at 5.17.01 PM.png"
+            }
             projectUrl="https://github.com/vaibhavzignuts/library-managment-system"
             tech="React JS"
           />
           <ProjectItem
             title="E-commerce app"
-            backgroundImg={netflixImg}
+            backgroundImg={"/assets/projects/Screenshot_1715082714.png"}
             projectUrl="https://github.com/vaibhavzignuts/assignment5-Ecommerce-app-react-native"
             tech="React Native"
           />
           <ProjectItem
             title="Foodie"
-            backgroundImg={twitchImg}
+            backgroundImg={"/assets/projects/Screenshot_1715083521.png"}
             // projectUrl="/twitch"
             tech="React Native"
           />
