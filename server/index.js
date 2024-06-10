@@ -12,7 +12,6 @@ const app = express();
 const PortfolioModel = require("./models/user");
 
 const corsOptions = {
-  origin: "http://localhost:3000",
   credentials: true,
 };
 
