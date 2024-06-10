@@ -12,8 +12,7 @@ const app = express();
 const PortfolioModel = require("./models/user");
 
 const corsOptions = {
-  origin: '*',
-  credentials: true,
+  origin: ['http://localhost:3000', 'https://nvaibhav.netlify.app'],
 };
 
 // Use CORS middleware
