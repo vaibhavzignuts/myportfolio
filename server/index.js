@@ -15,8 +15,14 @@ const corsOptions = {
   origin: ['http://localhost:3000', 'https://nvaibhav.netlify.app'],
 };
 
-// Use CORS middleware
-app.use(cors(corsOptions));
+
+app.use(cors())
+
+
+
+
+
+
 
 // Mount the router middleware on your Express application
 app.use("/", router);
