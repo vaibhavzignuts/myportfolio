@@ -60,9 +60,9 @@ const Contact = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8000/portfolio/",
+        "https://myportfolio-weld-psi.vercel.app/portfolio/",
         formData,
-        { withCredentials: true }
+
       );
 
       if (response.data.error) {
