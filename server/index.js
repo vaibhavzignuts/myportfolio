@@ -70,7 +70,7 @@ app.post("/portfolio", async (req, res) => {
     res.status(500).json({ error: "Internal server error" });
   }
 });
-const port = 8000;
+const port = 8001;
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
